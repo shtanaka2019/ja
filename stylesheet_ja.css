@@ -10,24 +10,24 @@ html{
 .btn.language{
   float:right;
   color:gray;
-  margin-top:1Vw;
+  margin-top:0.5Vw;
   height: 4Vw;
   letter-spacing: 0.1Vw;
   background-color: rgba(255,255,255,0);
+  padding-top:1Vw;
 
 }
 
 .language a{
 
-    font-size:1.5Vw;
-    text-indent:0Vw;
-    padding-left:0;
-    padding-top:0.5Vw;
-    margin-bottom:1Vw;
-    letter-spacing: 0.1Vw;
-    font-weight:bold;
-    vertical-align: top;
-    line-height: 2Vw;
+  font-size:1.5Vw;
+  text-indent:0Vw;
+  padding-left:0;
+  margin-bottom:1Vw;
+  letter-spacing: 0.1Vw;
+  font-weight:bold;
+  vertical-align:bottom;
+  line-height: 2Vw;
 }
 
 .fas{
@@ -88,19 +88,29 @@ html{
 }
 
 .caption{
-  font-size:40px;
+  font-size:50px;
   color:dimgray;
-  margin-top:0px;
+  margin-top:20px;
   margin-bottom:20px;
-  margin-left:-40px;
-  margin-right:-40px;
+  margin-left:10px;
+  margin-right:10px;
   font-weight:bold;
+  text-indent:-1em;
+
+
+
+
+
 }
 
 .caption span{
   font-size:30px;
 }
 
+.bold{
+  color:dimgray;
+  font-weight:bold;
+}
 
 
 .paper{
@@ -214,6 +224,12 @@ width:60%;
   font-weight:normal;
 }
 
+.profdetail.name{
+  padding-left:1em;
+  text-indent:-1em;
+  font-weight:normal;
+
+}
 
 .topic{
   text-indent:0px;
