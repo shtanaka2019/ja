@@ -27,7 +27,7 @@ html{
   letter-spacing: 0.1Vw;
   font-weight:bold;
   vertical-align:bottom;
-  line-height: 2Vw;
+  line-height: 4Vw;
 }
 
 .fas{
@@ -236,6 +236,10 @@ width:60%;
   padding-left:0px;
 }
 
+.profdetail .topic a:hover{
+  opacity:0.5;
+}
+
 .contents.gallery{
   background-color:rgba(60,179,113,0.2);
   width:98%;
@@ -274,7 +278,7 @@ height:auto;
 
 .counter{
   position:absolute;
-  left:80%;
+  left:90%;
 }
 
 .footer a{
