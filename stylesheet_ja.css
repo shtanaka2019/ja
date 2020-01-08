@@ -35,10 +35,12 @@ html{
 }
 
 
-.fas:hover{
-    color:#ffb6c1;
-}
 
+
+
+.fas.fa-link{
+  color:mediumseagreen;
+}
 
 
 
