@@ -91,15 +91,16 @@ html{
 
 .caption{
   font-size:50px;
-  color:dimgray;
+  color:darkgreen;
   margin-top:20px;
   margin-bottom:20px;
   margin-left:10px;
   margin-right:10px;
   font-weight:bold;
   text-indent:-1em;
-
 }
+
+
 
 .caption span{
   font-size:30px;
@@ -113,7 +114,7 @@ html{
 
 .paper{
   font-size:40px;
-  color:gray;
+  color:black;
   text-indent:10px;
   font-weight:bold;
 }
