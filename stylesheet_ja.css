@@ -7,9 +7,13 @@ html{
   scroll-behavior:smooth;
 }
 
+body{
+  font-family: "sans-serif";
+}
+
 .btn.language{
   float:right;
-  color:gray;
+  color:black;
   margin-top:0.5Vw;
   height: 4Vw;
   letter-spacing: 0.1Vw;
@@ -20,18 +24,18 @@ html{
 
 .language a{
 
-  font-size:1.5Vw;
+  font-size:2Vw;
   text-indent:0Vw;
   padding-left:0;
   margin-bottom:1Vw;
-  letter-spacing: 0.1Vw;
+  letter-spacing: 0.0Vw;
   font-weight:bold;
   vertical-align:bottom;
   line-height: 4Vw;
 }
 
 .fas{
-  color:gray;
+  color:black;
 }
 
 
@@ -85,80 +89,42 @@ html{
   width:98%;
   background-color:rgba(60,179,113,0.2);
   margin-top:0px;
-  padding:20px 40px 40px 60px;
-  border-radius: 20px;
+  padding:0Vw 1Vw 1Vw 5Vw;
+  border-radius: 1Vw;
+  font-family: sans-serif;
 }
 
 .caption{
-  font-size:50px;
+  font-size:3Vw;
   color:darkgreen;
-  margin-top:20px;
-  margin-bottom:20px;
-  margin-left:10px;
-  margin-right:10px;
+  margin-top:1Vw;
+  margin-bottom:1Vw;
+  margin-left:1Vw;
+  margin-right:1Vw;
+  padding-top: 2Vw;
   font-weight:bold;
   text-indent:-1em;
+  font-family: sans-serif;
 }
 
 
 
 .caption span{
-  font-size:30px;
+  font-size:2Vw;
 }
 
 .bold{
-  color:dimgray;
-  font-weight:bold;
-}
-
-
-.paper{
-  font-size:40px;
   color:black;
-  text-indent:10px;
   font-weight:bold;
-}
-
-.paperlink{
-  text-decoration:none;
-  color:gray;
-}
-
-.paperlink:hover{
-  color:rgba(60,179,113,1.0);
-  opacity:0.5;
-}
-
-.paper li{
-  font-size:30px;
-  color:gray;
-  letter-spacing: 0px;
-  text-indent:-1em;
-  padding-left:0.5em;
-  padding-top:20px;
-  font-weight:normal;
-}
-
-.blank{
-  height:100px;
-  background-color:white;
-}
-
-.blank2{
-  height:200px;
-  background-color:white;
 }
 
 
 .profileAll{
   width:100%;
   position:relative;
-  font-size:30px;
+  font-size:2Vw;
   text-align: left;
-
 }
-
-
 
 .profcontent{
 display:inline-block;
@@ -166,9 +132,9 @@ vertical-align: top;
 }
 
 .profphoto{
-width:30%;
+width:40%;
 height:width*1;
-margin-left:5%;
+margin-left:3Vw;
 
 
 }
@@ -177,50 +143,42 @@ margin-left:5%;
   width:100%;
   /*max-height:30%;*/
   height:auto;
-  text-align: right;
-  border:10px solid white;
-  border-radius: 20px;
+  text-align: center;
+  border:0.5Vw solid white;
+  border-radius: 1Vw;
 }
 .profletter{
 /*position:absolute;
 top:0px;
 left:35%;*/
-width:60%;
+width:100%;
 }
 
 .profletter li{
   list-style: none;
-  color:gray;
-  margin-bottom:10px;
-
-
-}
-
-.link{
-  text-decoration: none;
-  color:gray;
-}
-
-.link:hover{
-  color:rgba(60,179,113,1.0);
-  opacity:0.5;
+  /* color:black; */
+  margin-bottom:1Vw;
 }
 
 .profindex{
-  text-indent:-20px;
-  font-size:40px;
+  color:black;
+  font-size:3Vw;
+  text-indent:-1em;
   padding-top:0px;
   font-weight:bold;
+  margin-top:2em;
 }
 .profindex span{
-  fontsize: 20px;
+  fontsize: 2Vw;
   font-weight:normal;
 }
 
 .profdetail{
-  padding-left:7em;
-  text-indent:-7em;
+  padding-left:1em;
+  text-indent:-1em;
   font-weight:normal;
+  color: black;
+  margin-top:1em;
 }
 
 .profdetail.name{
@@ -239,16 +197,72 @@ width:60%;
   opacity:0.5;
 }
 
+.paper{
+  font-size:2Vw;
+  color:black;
+  text-indent:0em;
+  font-weight:bold;
+}
+
+.publishmentindex{
+  font-size:3Vw;
+}
+
+.paperlink{
+  text-decoration:none;
+  color:black;
+}
+
+.paperlink:hover{
+  color:rgba(60,179,113,1.0);
+  opacity:0.5;
+}
+
+.paper li{
+  font-size:2Vw;
+  color:black;
+  letter-spacing: 0px;
+  text-indent:-1em;
+  padding-left:0.5em;
+  padding-top:1Vw;
+  font-weight:normal;
+  margin-top:0.5em;
+}
+
+.blank{
+  height:5Vw;
+  background-color:white;
+}
+
+.blank2{
+  height:10Vw;
+  background-color:white;
+}
+
+
+
+.link{
+  text-decoration: none;
+  color:black;
+}
+
+.link:hover{
+  color:rgba(60,179,113,1.0);
+  opacity:0.5;
+}
+
+
+
 .contents.gallery{
   background-color:rgba(60,179,113,0.2);
   width:98%;
 }
 
 .insidegallery{
-  padding-top:100px;
+  padding-top:2Vw;
   padding-left:10%;
   padding-right:10%;
-  padding-bottom:-20px;
+  padding-bottom:0Vw;
 }
 
 /*スライド-ショーの設定*/
@@ -261,11 +275,11 @@ height:auto;
 
 
 .footer{
-  color:dimgray;
-  font-size:30px;
+  color:black;
+  font-size:3Vw;
   background-color:white;
-  border-top:15px solid gray;
-  height: 100px;
+  border-top:0.5Vw solid black;
+  height: 5Vw;
   width:100%;
 }
 
@@ -277,12 +291,12 @@ height:auto;
 
 .counter{
   position:absolute;
-  left:90%;
+  left:80%;
 }
 
 .footer a{
   text-decoration:none;
-  color:dimgray;
+  color:black;
 }
 
 .footer a:hover{
